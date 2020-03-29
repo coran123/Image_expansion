@@ -1,4 +1,4 @@
-# Image_expansion with GANs
+# Image expansion with GANs
 In this project, we are presenting a deep learning approach for adversarially training
 neural networks to naturally expend image boundaries. We use a three-phase training schedule to
 stably train a DCGAN architecture on a subset of the Places365 dataset. Once trained, our model
