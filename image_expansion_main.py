@@ -364,5 +364,4 @@ load_model()
 
 train()
 
-load_model()
 
