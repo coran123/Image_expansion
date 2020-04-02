@@ -9,7 +9,7 @@ expansion.
 
 ```
 sudo apt-get install curl
-sudo pip3 install -r requirements.txt
+conda install --yes --file requirements.txt
 ```
 ## Get Started
 
