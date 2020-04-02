@@ -16,6 +16,7 @@ sudo pip3 install -r requirements.txt
 ### Download and prepare data:
 
 ```
+chmod +x ./prepare_data.sh
 ./prepare_data.sh
 ```
 dataset looks like:
