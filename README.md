@@ -13,7 +13,7 @@ sudo pip3 install -r requirements.txt
 ```
 ## Get Started
 
-1. Download and prepare data:
+### Download and prepare data:
 
 ```
 ./prepare_data.sh
@@ -24,13 +24,16 @@ dataset looks like:
 <img src="https://github.com/fe1ixxu/Image_expansion/blob/master/images/data.png" alt="PAPR" width="512px">
 </div>
 
-2. Training the model:
+### Training the model:
 
 ```
 python image_expansion_main.py
 ```
 
-## Results:
+## Test and see results:
+```
+python image_expansion_test.py
+```
 <div align=center>
 <img src="https://github.com/fe1ixxu/Image_expansion/blob/master/images/result.png" alt="PAPR" width="512px">
 <img src="https://github.com/fe1ixxu/Image_expansion/blob/master/images/result2.png" alt="PAPR" width="512px">
