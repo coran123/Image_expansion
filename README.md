@@ -5,25 +5,36 @@ stably train a DCGAN architecture on a subset of the Places365 dataset. Once tra
 is able to expend 128 × 128 color images relatively realistically, thus allowing for recursive
 expansion.
 
-# Install Requirement
+## Install Requirement
 
 ```
 sudo apt-get install curl
 sudo pip3 install -r requirements.txt
 ```
-# Get Started
+## Get Started
 
 1. Download and prepare data:
 
 ```
 ./prepare_data.sh
 ```
+dataset looks like:
+
+<div align=center>
+<img src="https://github.com/fe1ixxu/Image_expansion/blob/master/images/data.png" alt="PAPR" width="512px">
+</div>
 
 2. Training the model:
 
 ```
 python image_expansion_main.py
 ```
+
+## Results:
+<div align=center>
+<img src="https://github.com/fe1ixxu/Image_expansion/blob/master/images/result.png" alt="PAPR" width="512px">
+<img src="https://github.com/fe1ixxu/Image_expansion/blob/master/images/result2.png" alt="PAPR" width="512px">
+</div>
 
 ## Built With
 
